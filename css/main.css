@@ -829,7 +829,7 @@ p.copyright {
 
 /*** INTERNAS ***/
 /* Conferencia */
-body.conferencia .navegacion-principal .activo {
+.navegacion-principal .activo {
   border-bottom: 2px solid #fe4918;
 }
 .galeria a {
@@ -985,12 +985,9 @@ div.dia i {
   }
 }
 
-
-
-
-
-div.dia:after {
-
+div.cboxElement {
+  padding: 30px!important;
+  text-align: center;
 }
 
 
