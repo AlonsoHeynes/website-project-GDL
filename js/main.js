@@ -197,6 +197,7 @@ $(function() {
     $('.menu-programa a').removeClass('activo');
     $(this).addClass('activo');
     $('.ocultar').hide();
+    $('.activo').show();
     var enlace = $(this).attr('href');
     $(enlace).fadeIn(1000);
     return false;         //que no de el brinco
